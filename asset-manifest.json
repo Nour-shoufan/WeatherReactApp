@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/WeatherReact/static/css/main.8d7c311d.css",
+    "main.js": "/WeatherReact/static/js/main.be234fe2.js",
+    "static/js/453.14ffd26a.chunk.js": "/WeatherReact/static/js/453.14ffd26a.chunk.js",
+    "static/media/ChatGPT Image 8 نوفمبر 2025، 03_50_48 م.png": "/WeatherReact/static/media/ChatGPT Image 8 نوفمبر 2025، 03_50_48 م.47c005e8024bacf3e393.png",
+    "static/media/jpg": "/WeatherReact/static/media/1177a5608950442b5c1834c12847f673.7d4398136b3a60af84e0.jpg",
+    "index.html": "/WeatherReact/index.html",
+    "main.8d7c311d.css.map": "/WeatherReact/static/css/main.8d7c311d.css.map",
+    "main.be234fe2.js.map": "/WeatherReact/static/js/main.be234fe2.js.map",
+    "453.14ffd26a.chunk.js.map": "/WeatherReact/static/js/453.14ffd26a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8d7c311d.css",
+    "static/js/main.be234fe2.js"
+  ]
+}
