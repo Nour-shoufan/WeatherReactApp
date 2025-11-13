@@ -64,7 +64,7 @@ export const Weather = () => {
             }}
           >
             {hour}
-            {isDay == "1" ? " am" : " bm"}
+            {isDay === "1" ? " am" : " bm"}
           </h6>
           <p style={{ fontSize: "15px" }}>{time}</p>
         </div>
