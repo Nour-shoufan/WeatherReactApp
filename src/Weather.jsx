@@ -7,7 +7,7 @@ export const Weather = () => {
   const [time, setTime] = useState();
   const [hour, setHour] = useState();
   const [windspeed, setWindspeed] = useState();
-  const [humidity, setHumidity] = useState();
+  // const [humidity, setHumidity] = useState();
   const [isDay, setIsDay] = useState();
 
   useEffect(() => {
@@ -20,7 +20,7 @@ export const Weather = () => {
         setTime(data.current_weather.time.split("T")[0]);
         setHour(data.current_weather.time.split("T")[1].slice(0, 5));
         setWindspeed(data.current_weather.windspeed);
-        setHumidity(data.hourly.relative_humidity_2m);
+        // setHumidity(data.hourly.relative_humidity_2m);
         // setWindspeed(data.hourly.relative_humidity_2m);
         setIsDay(data.current_weather.is_day);
       });
@@ -76,12 +76,12 @@ export const Weather = () => {
           className="sid"
           style={{ display: "flex", justifyContent: "space-around" }}
         >
-          <img src={image} style={{ width: "200px", margin: "0px" }} />
+          <img alt="" src={image} style={{ width: "200px", margin: "0px" }} />
           <div className="flex">
             <p style={{ marginTop: "30px" }}>Temperature</p>
-            <h1 style={{ fontSize: "45px", margin: "0px" }}>
+            <h1 style={{ fontSize: "35px", margin: "0px" }}>
               {" "}
-              20
+          
               {temp}
               °C
             </h1>
